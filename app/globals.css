@@ -1,0 +1,21 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f1115;
+  --panel: #151923;
+  --muted: #8b93a7;
+}
+html, body, #__next { height: 100%; }
+body { background: #0f1115; color: white; }
+.card { background: var(--panel); border-radius: 1rem; box-shadow: 0 8px 24px rgba(0,0,0,0.25); }
+.scroll-slim { scrollbar-width: thin; scrollbar-color: #333 transparent; }
+.scroll-slim::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-slim::-webkit-scrollbar-thumb { background-color: #2a2f3a; border-radius: 8px; }
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 font-medium transition; }
+.btn-primary { @apply btn bg-brand hover:bg-brand-dark text-white; }
+.btn-ghost { @apply btn bg-transparent hover:bg-white/5 text-white; }
+.badge { @apply inline-flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-1 text-xs text-white; }
+.input { @apply w-full rounded-xl bg-white/5 px-3 py-2 text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-brand; }

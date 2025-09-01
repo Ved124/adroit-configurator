@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400'>
+  <rect width='100%' height='100%' fill='#222a38'/>
+  <g transform='translate(300,200)'>
+    <rect x='-260' y='-160' width='520' height='320' rx='24' fill='#2d3648' stroke='#3c4861' stroke-width='4'/>
+    <text x='0' y='0' text-anchor='middle' font-size='36' font-family='Arial' fill='white'>Corona Treater</text>
+  </g>
+</svg>
