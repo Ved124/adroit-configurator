@@ -190,8 +190,8 @@ export const CATEGORIES: Category[] = [
     name: "Electrical Control",
     selectLimit: 1,
     options: [
-      { id: "plc-basic", title: "7" HMI + PLC", spec: { "HMI": "7 inch", "PLC": "Siemens Basic" }, priceUSD: 4800, image: "/images/electrical-control.svg" },
-      { id: "plc-advanced", title: "10" HMI + PLC", spec: { "HMI": "10 inch", "PLC": "Siemens Advanced" }, priceUSD: 7400, image: "/images/electrical-control.svg" },
+      { id: "plc-basic", title: "7\" HMI + PLC", spec: { "HMI": "7 inch", "PLC": "Siemens Basic" }, priceUSD: 4800, image: "/images/electrical-control.svg" },
+      { id: "plc-advanced", title: "10\" HMI + PLC", spec: { "HMI": "10 inch", "PLC": "Siemens Advanced" }, priceUSD: 7400, image: "/images/electrical-control.svg" },
     ]
   },
 ]
